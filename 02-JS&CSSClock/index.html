@@ -16,7 +16,7 @@
 
     <style>
       html {
-        background: #018ded url(https://unsplash.it/1500/1000?image=881&blur=5);
+        background: #018ded url(./3b8ad2c7b1be2caf24321c852103598a.jpg);
         background-size: cover;
         font-family: "helvetica neue";
         text-align: center;
@@ -35,12 +35,12 @@
       .clock {
         width: 30rem;
         height: 30rem;
-        border: 20px solid white;
+        border: 20px solid cyan;
         border-radius: 50%;
         margin: 50px auto;
         position: relative;
         padding: 2rem;
-        box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
+        box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px cyan,
           inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
       }
 
@@ -60,12 +60,22 @@
         transform-origin: 100%;
         transform: rotate(90deg);
         transition: 0.05 all;
+        transition: cubic-bezier(0.1, 2.7, 0.58, 1);
         transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+      }
+      .hour-hand {
+        background: orange;
+      }
+      .min-hand {
+        background: purple;
+      }
+      .second-hand {
+        background: white;
       }
       .digital-clock {
         padding-top: 75px;
-        color: #fff;
-        border-bottom: 2px solid #fff;
+        color: cyan;
+        border-bottom: 3px solid cyan;
       }
     </style>
 

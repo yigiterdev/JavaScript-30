@@ -15,6 +15,8 @@ function setDate() {
   const hour = now.getHours();
   const hourDegrees = (hour / 12) * 360 + (mins / 60) * 30 + 90;
   hourHand.style.transform = `rotate(${hourDegrees}deg)`;
-  digitalClock.innerHTML = `<h1>${hour}:${mins}:${seconds}</h1>`;
+
+  digitalClock.innerHTML = `<h1>Now : ${hour}:${mins}:${seconds}</h1>`;
 }
+
 setInterval(setDate, 1000);
