@@ -7,5 +7,6 @@
 - [03 - CSS Variables](03-CSSVariables)
 - [04 - Array Cardio Day1](04-ArrayCardioDay1)
 - [05 - Flex Panel Gallery](05-FlexPanelGallery)
+- [06 - Ajax Type Ahead](06-TypeAhead)
 
 ### You can look at live demo [here](https://yigiterdev-javascript-30.netlify.app/)
